@@ -1,0 +1,343 @@
+:root {
+  --whitesmoke-2\<deleted\|variable-61e42f9e-3857-7aea-5b1a-ee7f8e27d7e4\>: whitesmoke;
+  --blacksmoke: #272727;
+  --whitesmoke: #f4f3ef;
+  --identity: #cdde2f;
+  --white: white;
+  --black: black;
+}
+
+.w-layout-layout {
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  padding: 20px;
+}
+
+.w-layout-cell {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+body {
+  background-color: var(--whitesmoke-2\<deleted\|variable-61e42f9e-3857-7aea-5b1a-ee7f8e27d7e4\>);
+  color: var(--blacksmoke);
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  letter-spacing: -5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: Inter, sans-serif;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 90px;
+}
+
+h2 {
+  letter-spacing: -3px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+h3 {
+  letter-spacing: -1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+a {
+  color: var(--blacksmoke);
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: .64;
+}
+
+.section-header {
+  padding-top: 0;
+}
+
+.wrap-or-container-945px {
+  width: 100%;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+  display: block;
+}
+
+.wrap-or-container-945px.home__hero-heading-wrap {
+  text-align: center;
+  max-width: 945px;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.label {
+  text-transform: uppercase;
+}
+
+.home__hero-heading {
+  text-align: center;
+}
+
+.style__head {
+  background-color: var(--blacksmoke);
+  color: var(--whitesmoke);
+  margin-top: 80px;
+  padding: 40px;
+}
+
+.style__content {
+  border: 1px solid var(--blacksmoke);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.div-block {
+  background-color: var(--identity);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section-portfolio {
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.home__portfolio-img-grid {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.home__portfolio-links:hover {
+  opacity: .5;
+}
+
+.portfolio__img-grid {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  aspect-ratio: auto;
+  text-align: left;
+  max-width: 1920px;
+  position: static;
+}
+
+.portfolio__section {
+  background-color: var(--whitesmoke);
+  flex-flow: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 130px;
+  display: flex;
+}
+
+.body {
+  background-color: var(--whitesmoke);
+}
+
+.home__social-icons-svg {
+  max-width: 100%;
+  height: 40px;
+  margin-left: 10px;
+  font-size: 0;
+}
+
+.home__social-icons-svg:hover {
+  opacity: .5;
+}
+
+.home__social-icons-header {
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-right: 40px;
+  display: flex;
+}
+
+.home__footer {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer__label {
+  text-align: center;
+  line-height: 28px;
+}
+
+.heading {
+  line-height: 55px;
+}
+
+.home__perfil-img {
+  max-width: 100%;
+  height: 150px;
+}
+
+.home__perfil-heading {
+  letter-spacing: -2px;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.home__social-icons-footer {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+
+.portfolio__back {
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 0;
+  padding: 26px 20px 0 40px;
+  display: flex;
+  position: fixed;
+}
+
+.portfolio__back-img {
+  opacity: .8;
+  max-width: 80%;
+}
+
+@media screen and (max-width: 991px) {
+  .home__social-icons-header {
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  h2 {
+    letter-spacing: -1px;
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .wrap-or-container-945px.home__hero-heading-wrap {
+    padding: 20px;
+  }
+
+  .label {
+    font-size: 10px;
+  }
+
+  .home__hero-heading {
+    letter-spacing: -1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .home__social-icons-svg {
+    height: 40px;
+  }
+
+  .home__social-icons-header {
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-right: 40px;
+    overflow: visible;
+  }
+}
+
+#w-node-c59c5d65-b1ac-61ac-51e5-ffc0e6df9aab-e9d93dee {
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+#w-node-dbe82bcc-4188-7051-b5ff-b31afc01f26d-bc2c732c {
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: 1fr;
+}
+
+#w-node-dbe82bcc-4188-7051-b5ff-b31afc01f26d-d56fb8b5 {
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: 1fr;
+}
+
+#w-node-dbe82bcc-4188-7051-b5ff-b31afc01f26d-b3366464 {
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: 1fr;
+}
+
+#w-node-dbe82bcc-4188-7051-b5ff-b31afc01f26d-2a9c946f, #w-node-dbe82bcc-4188-7051-b5ff-b31afc01f26d-4db01d80, #w-node-dbe82bcc-4188-7051-b5ff-b31afc01f26d-70f340e6 {
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-c59c5d65-b1ac-61ac-51e5-ffc0e6df9aab-e9d93dee {
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-c59c5d65-b1ac-61ac-51e5-ffc0e6df9aab-e9d93dee {
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
